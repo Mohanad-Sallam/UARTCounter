@@ -22,8 +22,6 @@ uint_8t MyAPP_init(void)
 {
 	uint_8t LocalError=OK;
 	/*Configure RCC Clock system*/
-	RCC_SetPriephralStatus(USART_1_ENABLE,ON);
-	RCC_SetPriephralStatus(GPIO_A_ENABLE,ON);
 	RCC_SetPriephralStatus(GPIO_C_ENABLE,ON);
 	RCC_SetBusPrescale(APB2_PRESCALER,APB2_PRESCALER_DIV_2);
 	/*Configure Basic software component*/

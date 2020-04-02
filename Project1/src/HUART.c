@@ -15,8 +15,9 @@ uint_8t HUART_Init(void)
 	uint_8t Local_Error=OK;
 	uint_32t BaudRate_Fraction;
 	uint_32t BaudRate_Mantissa;
+	RCC_SetPriephralStatus(USART_1_ENABLE,ON);
+	RCC_SetPriephralStatus(GPIO_A_ENABLE,ON);
 	/*configure GPIO Pins*/
-
 	GPIO_t GPIO;
 	GPIO.Mode=MODE_PIN10_IP_PUR|MODE_PIN9_AF_PP;
 	GPIO.Speed=SPEED_PIN10_INPUT|SPEED_PIN9_2MHZ;
