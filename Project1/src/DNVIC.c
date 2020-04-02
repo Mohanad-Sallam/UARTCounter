@@ -2,7 +2,7 @@
  * DNVIC.c
  *
  *  Created on: Feb 22, 2020
- *      Author: Ahmed Qandeel
+ *      Author: Mostafa Ramadan
  */
 
 #include "DNVIC.h"

@@ -2,7 +2,7 @@
  * DNVIC.h
  *
  *  Created on: Feb 22, 2020
- *      Author: Ahmed Qandeel
+ *      Author: Mostafa Ramadan
  */
 
 #ifndef DNVIC_H_
